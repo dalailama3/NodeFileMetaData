@@ -7,8 +7,17 @@
   </head>
   <body>
     <p>Upload a file to see how many bytes it contains.</p>
-    <input type="file"/>
-    <button type="submit">Submit</button>
-
+    <form class="file-upload" enctype="multipart/form-data" method="post" action="/file-upload">
+      <input name="file" type="file"/>
+      <button class="upload" type="submit">Submit</button>
+    </form>
   </body>
+
+  <script>
+
+
+
+
+
+  </script>
 </html>
